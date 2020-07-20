@@ -1,0 +1,519 @@
+html, body, ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div, img, a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.container-sub {
+  width: 900px;
+  margin: 0 auto;
+}
+
+/* header */
+header {
+  margin-top: 10px;
+  height: 75px;
+  font-family: 游ゴシック;
+  font-size: 15px;
+}
+
+.header-logo {
+  width: 160px;
+  height: 175px;
+  border: 1px solid #F7F7F7;
+  box-shadow: 1px 1px #F7F7F7;
+  display: block;
+  position: absolute;
+  top: 0;
+}
+
+.corp-btn a {
+  float: left;
+  color: white;
+  background-color: #00A4B0;
+  display: inline-block;
+  text-align: left;
+  padding-right: 5px;
+}
+
+.corp-btn-left {
+  margin-left: 250px;
+  margin-right: 10px;
+}
+
+header p {
+  margin: auto 5px;
+}
+
+.header-tel {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 20px;
+}
+
+.language a {
+  color: black;
+  font-size: 5px;
+  text-decoration: underline;
+  margin: 8px 6px 0 0;
+}
+
+.language a:hover {
+  text-decoration: none;
+}
+
+.nav {
+  display: inline-block;
+  text-align: center;
+  width: 220px;
+  color: white;
+  line-height: 35px;
+}
+
+.list-upper {
+  background-color: #00A4B0;
+  display: inline-block;
+  width: 220px;
+  margin: auto;
+  margin-top: 16px;
+  color: white;
+  height: 35px;
+}
+
+.list-upper:hover {
+  color: black;
+}
+
+.nav li li {
+  border-top: 1px dotted black;
+  background-color: #00A4B0;
+  height: 35px;
+}
+
+.nav li li a  {
+  color: white;
+}
+
+.nav li:hover > ul li {
+  z-index: 1;
+  position: relative;
+  display: block;
+}
+
+.nav li:hover .list-upper {/*親階層*/
+  background-color: #EEEEEE;
+  color: black;
+}
+
+.nav li li:hover a {
+  height: 35px;
+  color: black;
+  background: #EEEEEE;
+  display: block;
+}
+/* header */
+
+/*top-wrapper*/
+.main {
+  height: 525px;
+  margin-bottom: 75px;
+}
+
+top-wrapper ul li {
+  float: left;
+  margin-bottom: 50px;
+}
+
+.name {
+  width: 300px;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  font-size: 23px;
+}
+
+.fa-caret-right {
+  padding: 5px 0 0 7px ;  
+}
+
+.sub {
+  display: flex;
+  width: 300px;
+  height: 155px;
+}
+
+top-wrapper ul li :hover{
+  opacity: 0.5;
+}
+
+
+top-wrapper ul span {
+  background-color: black;
+  color: white;
+  display: inline-block;
+}
+
+/*top-wrapper*/
+
+
+/*main-wrapper*/
+.concept {
+  margin-top: 200px;
+  position: relative;
+  top: 0;
+}
+
+.hotel-img {
+  margin-left: 150px;
+  display: flex;
+}
+
+.main-concept {
+  font-weight: 700;
+  font-family: 游明朝;
+  position: absolute;
+  top: 110px;
+  left: 100px;
+}
+
+.main-concept h1 {
+  font-size: 50px;
+}
+
+.main-concept h2 {
+  font-size: 35px;
+}
+
+.main-concept p {
+  font-size: 13px;
+  opacity: 0.8;
+  margin: 30px 0;
+}
+
+.jt-concept img {
+  display: block;
+  margin-left: 50px;
+  width: 1100px;
+}
+
+.aaa{
+  position: absolute;
+  bottom: -7px;
+  right: 30px;
+}
+
+.aaa img {
+  margin-left: 5px;
+}
+/*main-wrapper*/
+
+/*notice*/
+.notice-title {
+  font-family: 游明朝;
+  text-align: center;
+  margin: 90px 0 30px 0;
+}
+
+.information  {
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 游ゴシック;
+  font-weight: bold;
+  width: 1000px;
+  height: 420px;
+  border: 1px solid black;
+}
+
+.information > ul > li  ul  li {
+  display: inline-block;
+}
+
+.information span, p {
+  color: black;
+  font-size: 15px;
+  float: left;
+  margin: 15px;
+}
+
+.information span {
+  padding-right: 5px;
+  border-right: 1px dotted black;
+}
+
+.information li {
+  display: flex;
+}
+
+.information li:hover {
+  opacity: 0.7;
+}
+
+.cat1 {
+  text-align: center;
+  color: white;
+  background-color: black;
+  width: 110px;
+  height: 25px;
+}
+
+.cat2 {
+  text-align: center;
+  color: white;
+  background-color: #33B6C0;
+  width: 110px;
+  height: 25px;
+}
+/*notice*/
+
+/*AWARDS*/
+.award-title {
+  font-family: 游明朝;
+  text-align: center;
+  margin: 90px 0 0 0;
+}
+
+.award-subtitle {
+  text-align: center;
+}
+
+.award-subtitle {
+  font-family: 游明朝;
+  font-size: 15px;
+}
+
+.award-notice {
+  font-family: 游明朝;
+  font-size: 15px;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.award-ex {
+  text-align: center;
+}
+
+.award-ex img {
+  margin: 0 15px 30px 0;
+}
+/* AWARD */
+
+
+/* table */
+.tbody {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 15px;
+  border-bottom: 1px dotted gray; 
+}
+
+.tbody td {
+  padding: 8px;
+}
+
+.award-name {
+  text-align: left;
+}
+
+.year {
+  font-weight: bold;
+  border-top: 1px dotted gray;
+  
+}
+
+.n {
+  color: #2D78C9;
+  font-weight: bold;
+}
+
+.s {
+  color: #F1A030;
+  font-weight: bold;
+}
+
+.s-o {
+  color: #29A27E;
+  font-weight: bold;
+}
+
+.d {
+  color: #7C4F92;
+  font-weight: bold;
+}
+
+.award-name, .ota, .n, .s, .s-o, .d{
+  border-top: 1px dotted gray;
+}
+
+.month {
+  border-top: 1px dotted gray;
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+}
+/* table */
+
+.bar {
+  display: block;
+  margin: 80px auto;
+}
+
+.container-sub {
+  text-align: right;
+}
+
+.return-btn {
+  display: inline-block;
+  font-size: 40px;
+  background-color: #EEEEEE;
+  color: black;
+  padding: 0 10px;
+}
+
+/* footer */
+footer {
+  height: 380px;
+  background-color: #EEEEEE;
+}
+
+.left, .center, .right {
+  margin: 40px 40px 40px 0;
+  float: left;
+}
+
+.center h4, .add {
+  padding-bottom: 20px;
+}
+
+.center {
+  width: 380px;
+  text-align: left;
+}
+
+.center > ul {
+  height: 100px;
+  float: left;
+  padding-right: 55px;
+}
+
+.center a {
+  color: black;
+}
+
+.hotel {
+  text-decoration: underline;
+}
+
+.center i {
+  background-color: gainsboro;
+  font-size: 30px;
+  padding: 5px;
+}
+
+.facebook {
+  padding: 0 100px;
+}
+
+.insta:hover {
+  color: crimson;
+}
+
+.fb:hover {
+  color: #2D78C9;
+}
+
+.ytube:hover {
+  color: tomato;
+}
+
+.tw:hover {
+  color: #28ceda;
+}
+
+.line:hover {
+  color: rgb(3, 180, 3);
+}
+
+.mail:hover {
+  color: #F1A030;
+}
+
+.right {
+  text-align: center;
+  font-size: 14px;
+  margin-left: 50px;
+}
+
+.right img {
+  border: 1px solid black;
+}
+
+.right a {
+  color: black;
+}
+/* footer */
+
+/* reserve-wrapper */
+.reserve {
+  height: 103px;
+  background-color: rgb(23,23,23);
+  color: white;
+  text-align: center;
+  display: block;
+  
+}
+
+.reserve p  {
+  color: white;
+}
+
+.reserve ul li{
+  cursor: pointer;
+  font-size: 5px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.reserve ul li p{
+  font-size: 10px;
+  margin: 0;
+}
+
+.sp-no p {
+  color: red;
+  font-size: 50px;
+}
+
+.sp-no-top {
+  font-size: 20px;
+  color: red;
+}
+
+.sp-no-cin, .sp-no-hotel {
+  width: 180px;
+}
+
+.sp-no-cin p {
+  padding-right: 70px;
+}
+
+.sp-no-date {
+  width: 60px;
+}
+
+.sp-no-people, .sp-no-room {
+  width: 50px;
+}
+
+.sp-no-img {
+  margin: 0;
+  margin-top: 20px;
+}
+
+/* reserve-wrapper */
